@@ -1,0 +1,890 @@
+@charset "UTF-8";
+/* About Section */
+.text_column {
+	max-width: 29.5%;
+	min-width:10%;
+	font-weight: lighter;
+	line-height: 25px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #FFFFFF;
+	font-family: Arial;
+	position: relative;
+}
+.text_column .button {
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+	padding:15px 5px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000000;
+	background-color: #FFFFFF;
+	transition: all 0.3s linear;
+}
+.text_column .button:hover {
+	background-color: #000000;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.text_column .button a { 
+	text-decoration: none;
+	color: #000000;
+}
+.text_column .button:hover a { 
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.about {
+	/*padding-left: 25px;*/
+	/*padding-right: 25px;*/
+	/*padding-top: 35px;*/
+	display: inline-block;
+	background-color: #FFFFFF;
+	margin-top: 0px;
+	width: 100%;
+}
+.textblock1 {
+    color: #282828;
+    text-align: center;
+    max-width: 100%;
+    float: left;
+    margin: 30px 0px 20px 0px;
+}
+.text {
+	width: 100%;
+	float: left;
+	}
+	.text h2 {
+	padding: 0px 10px;
+	}
+	.text h3 {
+	font-family: Arial;
+	font-size: 18px;
+	padding: 20px 10px 0px 10px;
+	}
+	.text p {
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: auto;
+	padding: 0px 10px;
+	}
+	.text .bullets  {
+    text-indent: -15px;
+    margin: 0px 0px 20px 15px;
+	}
+.block1 {
+	background-image:url(https://dsaengagement.microsoftcrmportals.com/transfertool/images/landingpage/Banner-LandingPage-480x280-1.jpg);
+	height: 280px;
+    margin: 10px 5px 0px 0px;
+}
+.block2 {
+	background-image:url(https://dsaengagement.microsoftcrmportals.com/transfertool/images/landingpage/Banner-LandingPage-480x280-2.jpg);
+	height: 280px;
+    margin: 10px 5px 0px 0px;
+}
+.block3 {
+	background-image:url(https://dsaengagement.microsoftcrmportals.com/transfertool/images/landingpage/Banner-LandingPage-480x280-3.jpg);
+	height: 280px;
+    margin: 10px 0px 0px 0px;
+}
+
+/* Small Tablets */
+@media (min-width: 800px)and (max-width: 1275px) {
+
+.text_column h3 {
+	text-align: center;
+    padding: 40px 0px 0px 0px;
+    margin: 15px 0px;
+}
+.text_column p {
+	text-align: center;
+	padding: 0px 20px;
+	}
+}
+@media (min-width: 360px)and (max-width: 799px) {
+.text_column h3 {
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    margin: 0px;
+}
+.text_column p {
+	text-align: center;
+    padding: 0px 20px;
+    margin: 15px 0px;
+	line-height: 20px;
+	}
+}
+@media (max-width: 1275px) and (min-width: 361px) {
+.text_column {
+    max-width:100%;
+}
+	
+.textblock1 {
+    color: #282828;
+    text-align: center;
+    max-width: 95%;
+    float: none;
+    padding: 0% 2.5%;
+    margin: 30px 0px 20px 0px;
+}
+.block1 {
+    background-image: url(https://dsaengagement.microsoftcrmportals.com/transfertool/images/landingpage/Banner-LandingPage-780x280-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 280px;
+    width: 780px!important;
+    margin: 0 auto;
+    float: none;
+	padding: 0px;
+	margin-top: 10px;
+}
+.block2 {
+	background-image:url(https://dsaengagement.microsoftcrmportals.com/transfertool/images/landingpage/Banner-LandingPage-780x280-2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 280px;
+    width: 780px!important;
+    margin: 0 auto;
+    float: none;
+	padding: 0px;
+	margin-top: 10px;
+}
+.block3 {
+	background-image:url(https://dsaengagement.microsoftcrmportals.com/transfertool/images/landingpage/Banner-LandingPage-780x280-3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 280px;
+    width: 780px!important;
+    margin: 0 auto;
+    float: none;
+	padding: 0px;
+	margin-top: 10px;
+}
+}
+@media (min-width: 0px) and (max-width: 360px) {
+.text_column h3 {
+	text-align: center;
+    padding: 20px 0px 0px 0px;
+    margin: 15px 0px;
+}
+.text_column p {
+	text-align: center;
+    padding: 0px 10px;
+    line-height: 18px;
+	}
+.block1 {
+    background-image: url(https://dsaengagement.microsoftcrmportals.com/transfertool/images/landingpage/Banner-LandingPage-780x280-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 280px;
+    max-width: 100%;
+    min-width: 0%;
+    margin: 0 auto;
+    float: none;
+	padding: 0px;
+	margin-top: 10px;
+}
+.block2 {
+	background-image:url(https://dsaengagement.microsoftcrmportals.com/transfertool/images/landingpage/Banner-LandingPage-780x280-2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 280px;
+    max-width: 100%;
+    min-width: 0%;
+    margin: 0 auto;
+    float: none;
+	padding: 0px;
+	margin-top: 10px;
+}
+.block3 {
+	background-image:url(https://dsaengagement.microsoftcrmportals.com/transfertool/images/landingpage/Banner-LandingPage-780x280-3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 280px;
+    max-width: 100%;
+    min-width: 0%;
+    margin: 0 auto;
+    float: none;
+	padding: 0px;
+	margin-top: 10px;
+}
+}
+/* Small Desktops */
+@media (min-width: 768px) and (max-width: 1096px) {
+.text_column {
+	width: 100%;
+}
+.thumbnail {
+	width: 50%;
+}
+.text_column {
+	width: 100%;
+	max-width: 100%;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.banner {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+}
+	
+/* Stats Gallery */
+.stats {
+	color: #717070;
+	margin-bottom: 5px;
+}
+.gallery {
+	clear: both;
+	display: inline-block;
+	width: 100%;
+	background-color: #FFFFFF;
+	/* [disabled]min-width: 400px;
+*/
+	padding-bottom: 35px;
+	padding-top: 0px;
+	margin-top: -5px;
+	margin-bottom: 0px;
+}
+.thumbnail {
+	width: 25%;
+	text-align: center;
+	float: left;
+	margin-top: 35px;
+}
+.gallery .thumbnail h4 {
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	color: #52BAD5;
+}
+.gallery .thumbnail p {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	color: #A3A3A3;
+}
+/* Parallax Section */
+.banner {
+	background-color: #2D9AB7;
+	background-image: url(https://dsaengagement.microsoftcrmportals.com/transfertool/images/parallax.png);
+	height: 400px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.parallax {
+	color: #FFFFFF;
+	text-align: right;
+	padding-right: 100px;
+	padding-top: 110px;
+	letter-spacing: 2px;
+	margin-top: 0px;
+}
+.parallax_description {
+	color: #FFFFFF;
+	text-align: right;
+	padding-right: 100px;
+	width: 30%;
+	float: right;
+	font-weight: lighter;
+	line-height: 23px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+/* Button */
+.button  {
+	width: 120px;
+	/*margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;*/
+	padding:15px 5px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	/*letter-spacing: 2px;*/
+	/*border: 3px solid #FFFFFF;*/
+	color: #000000;
+	background-color: #FFFFFF;
+	transition: all 0.3s linear;
+}
+.hidden {
+	display: none;
+}
+
+.copyright {
+    text-align: center;
+    margin: 0 auto;
+    min-height: 60px;
+    background-color: #F2F2F2;
+    color: #282828;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    border-top-width: 2px;
+    width: 100%;
+	margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.copyright nav   {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 907px;
+    width: auto;
+    float: none;
+    text-align: center;
+}
+
+.copyright nav ul {
+    text-align: center;
+    min-height: 60px;
+    min-width: 50%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+.copyright nav li {
+	display: inline;
+    list-style: none;
+    padding: 10px;
+}
+
+.copyright nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.copyright .button {
+    width: 200px;
+    height: 60px;
+	padding: 0px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 0px;
+	text-transform: none;
+    font-weight: bold;
+    background-color: rgba(234, 89, 5, 1);
+    color: #FFFFFF;
+    transition: all 0.3s linear;
+}
+.copyright .button:hover  { 
+	background-color: #000000;
+}
+.copyright .button a {
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.copyright .button:hover a { 
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.singleline {line-height: 35px;}
+.doubleline {line-height: 18px;}
+.copyright .button p::first-line { 
+    background-color: none;
+}
+
+@media (max-width: 1275px) and (min-width: 361px) {
+.copyright nav ul li {margin-right:25px;}
+}
+@media (min-width: 769px) and (max-width: 1185px) {
+.copyright {min-height:150px;}
+.copyright nav   {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 420px;
+    width: auto;
+    float: none;
+    text-align: center;
+}
+	.copyright .button {margin: 0px 5px 10px 5px;}
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+.copyright {min-height:290px;}	
+.copyright nav   {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 200px;
+    width: auto;
+    float: none;
+    text-align: center;
+}
+.copyright .button {margin: 0px 5px 10px 5px;}
+}
+
+/* Image Banner Section */
+.image_header {
+	color: #FFFFFF;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+@media (min-width: 600px) {
+	.image_header {
+    text-align: center;
+    padding: 80px 0px 0px 0px;
+    width: 420px;
+	}
+}
+@media (min-width: 0px) and (max-width: 599px) {
+	.image_header {
+		text-align: center;
+		width:100%;
+		padding-top:20%;
+	}
+}
+
+.image {
+    background-color: #B3B3B3;
+    /* padding-top: 140px; */
+    /* padding-bottom: 140px; */
+    height: 280px;
+    background-repeat: no-repeat;
+}
+@media (min-width: 799px) {
+	.image1 {
+	background-image:url(https://dsaengagement.microsoftcrmportals.com/transfertool/images/Process/Banner-ProcessPage-625x615.jpg);
+	background-position:center;
+	width: 50%;
+    height: 615px;
+    float: left;
+	}
+	.image2 {
+	background-image:url(https://dsaengagement.microsoftcrmportals.com/transfertool/images/Process/Banner-ProcessPage-748x300-2.jpg);
+	background-position:center;
+	width: 50%;
+    height: 280px;
+    float: right;
+	}
+	.image3 {
+	background-image:url(https://dsaengagement.microsoftcrmportals.com/transfertool/images/Process/Banner-ProcessPage-748x300-3.jpg);
+	background-position:center;
+	width: 50%;
+    height: 280px;
+    float: left;
+	}
+	.image4 {
+	background-image:url(https://dsaengagement.microsoftcrmportals.com/transfertool/images/Process/Banner-ProcessPage-748x300-4.jpg);
+	background-position:center;
+	width: 50%;
+    height: 280px;
+    float: right;
+	}
+	.image5 {
+	background-image:url(https://dsaengagement.microsoftcrmportals.com/transfertool/images/Process/Banner-ProcessPage-748x300-5.jpg);
+	background-position:center;
+	width: 50%;
+    height: 280px;
+    float: left;
+	}
+	.text {
+	width: 50%;
+	float: left;
+	position: relative;
+	}
+	.text h2 {
+	font-size:18px;
+	padding: 0px 10px;
+	}
+	.text p {
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: auto;
+	padding: 0px 10px;
+	}
+	.text .button {
+	width: 200px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-family: Arial;
+    border-radius: 0px;
+    text-transform: none;
+    font-weight: bold;
+    background-color: rgba(234, 89, 5, 1);
+    transition: all 0.3s linear;
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    padding: 15px 5px;
+}
+	.text .button:hover {
+	background-color: #000000;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+	.text .button a { 
+	text-decoration: none;
+	color: #FFFFFF;
+}
+	.text .button:hover a { 
+	text-decoration: none;
+	color: #FFFFFF;
+}
+	.text_container3 {
+	height:280px;
+	position: relative;
+	}
+	.text_container5 {
+	height: 300px;
+    position: relative;
+    line-height: 18px;
+	}
+	.heading {
+	width: 100%;
+	float: left;
+	background: rgba(234, 89, 5, 1);
+	margin:0px 0px 5px 0px;
+	}
+	.heading h1 {
+	font-family: Arial;
+	padding: 0px 10px;
+	text-align: center;
+	color:#FFFFFF;
+	}
+	.heading p {
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: auto;
+	text-align: center;
+	padding: 0px 100px;
+	margin: 0px 0px 30px 0px;
+	color:#FFFFFF;
+	}
+}
+@media (min-width: 600px) and (max-width: 799px) {
+	.image1 {
+	background-image:url(https://dsaengagement.microsoftcrmportals.com/transfertool/images/Process/Banner-ProcessPage-748x300-1.jpg);
+	background-position:center;
+	width: 100%;
+    height: 280px;
+    float: left;
+	margin:0px 0px 10px 0px;
+	}
+	.image2 {
+	background-image:url(https://dsaengagement.microsoftcrmportals.com/transfertool/images/Process/Banner-ProcessPage-748x300-2.jpg);
+	background-position:center;
+	width: 100%;
+    height: 280px;
+    float: right;
+	margin:0px 0px 10px 0px;
+	}
+	.image3 {
+	background-image:url(https://dsaengagement.microsoftcrmportals.com/transfertool/images/Process/Banner-ProcessPage-748x300-3.jpg);
+	background-position:center;
+	width: 100%;
+    height: 280px;
+    float: left;
+	margin:0px 0px 10px 0px;
+	}
+	.image4 {
+	background-image:url(https://dsaengagement.microsoftcrmportals.com/transfertool/images/Process/Banner-ProcessPage-748x300-4.jpg);
+	background-position:center;
+	width: 100%;
+    height: 280px;
+    float: right;
+	margin:0px 0px 10px 0px;
+	}
+	.image5 {
+	background-image:url(https://dsaengagement.microsoftcrmportals.com/transfertool/images/Process/Banner-ProcessPage-748x300-5.jpg);
+	background-position:center;
+	width: 100%;
+    height: 280px;
+    float: left;
+	margin:0px 0px 10px 0px;
+	
+	}
+	nav {
+    width: 80%;
+	margin-right: 5px; 
+}
+	nav ul li {
+	margin-right: 10px;
+}
+	.text {
+	width: 100%;
+	float: left;
+	position: relative;
+	}
+	.text h2 {
+	font-size:18px;
+	padding: 0px 10px;
+	}
+	.text p {
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: auto;
+	padding: 0px 10px;
+	}
+	.text .button {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-family: Arial;
+    border-radius: 0px;
+    text-transform: none;
+    font-weight: bold;
+    background-color: rgba(234, 89, 5, 1);
+    transition: all 0.3s linear;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    padding: 15px 5px;
+}
+	.text .button:hover {
+	background-color: #000000;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+	.text .button a { 
+	text-decoration: none;
+	color: #FFFFFF;
+}
+	.text .button:hover a { 
+	text-decoration: none;
+	color: #FFFFFF;
+}
+	.heading {
+	width: 100%;
+	float: left;
+	background: rgba(234, 89, 5, 1);
+	margin:0px 0px 5px 0px;
+	}
+	.heading h1 {
+	font-family: Arial;
+	padding: 0px 10px;
+	text-align: center;
+	color:#FFFFFF;
+	}
+	.heading p {
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: auto;
+	text-align: center;
+	padding: 0px 50px;
+	color:#FFFFFF;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+	.image1 {
+	background-image:url(https://dsaengagement.microsoftcrmportals.com/transfertool/images/Process/Banner-ProcessPage-748x300-1.jpg);
+	background-position:center;
+	width: 100%;
+    height: 280px;
+    float: left;
+	margin:0px 0px 10px 0px;
+	}
+	.image2 {
+	background-image:url(https://dsaengagement.microsoftcrmportals.com/transfertool/images/Process/Banner-ProcessPage-748x300-2.jpg);
+	background-position:center;
+	width: 100%;
+    height: 280px;
+    float: right;
+	margin:0px 0px 10px 0px;
+	}
+	.image3 {
+	background-image:url(https://dsaengagement.microsoftcrmportals.com/transfertool/images/Process/Banner-ProcessPage-748x300-3.jpg);
+	background-position:center;
+	width: 100%;
+    height: 280px;
+    float: left;
+	margin:0px 0px 10px 0px;
+	}
+	.image4 {
+	background-image:url(https://dsaengagement.microsoftcrmportals.com/transfertool/images/Process/Banner-ProcessPage-748x300-4.jpg);
+	background-position:center;
+	width: 100%;
+    height: 280px;
+    float: right;
+	margin:0px 0px 10px 0px;
+	}
+	.image5 {
+	background-image:url(https://dsaengagement.microsoftcrmportals.com/transfertool/images/Process/Banner-ProcessPage-748x300-5.jpg);
+	background-position:center;
+	width: 100%;
+    height: 280px;
+    float: left;
+	margin:0px 0px 10px 0px;
+	}
+	.text .button {
+	width: 200px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-family: Arial;
+    border-radius: 0px;
+    text-transform: none;
+    font-weight: bold;
+    background-color: rgba(234, 89, 5, 1);
+    transition: all 0.3s linear;
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    padding: 15px 5px;
+}
+	.text .button:hover {
+	background-color: #000000;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+	.text .button a { 
+	text-decoration: none;
+	color: #FFFFFF;
+}
+	.text .button:hover a { 
+	text-decoration: none;
+	color: #FFFFFF;
+}
+	.text_container3 {
+	height:550px;
+	position: relative;
+	}
+	.text h2 {
+	padding: 0px 10px;
+	line-height: 25px;
+	font-size: 18px;
+	}
+	.text p {
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: auto;
+	padding: 0px 10px;
+	}
+	.heading {
+	width: 100%;
+	float: left;
+	background: rgba(234, 89, 5, 1);
+	margin:0px 0px 5px 0px;
+	}
+	.heading h1 {
+	font-family: Arial;
+	padding: 0px 10px;
+	text-align: center;
+	color:#FFFFFF;
+	}
+	.heading p {
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: auto;
+	text-align: center;
+	padding: 0px 10px;
+	color:#FFFFFF;
+	}
+}
+@media (min-width: 800px) and (max-width: 902px) {
+	.text_container3 {
+	height:300px;
+	position: relative;
+	}
+	.text_container5 {
+    height: 315px;
+    position: relative;
+    line-height: 18px;
+}
+	.text p {
+	font-family: Arial;
+    font-size: 16px;
+    font-weight: auto;
+    padding: 0px 10px;
+    line-height: 18px;
+}
+}
+@media (min-width: 600px) and (max-width: 800px) {
+	.text_container3 {
+	height:260px;
+	position: relative;
+	}
+	.text_container5 {
+    height: 260px;
+    position: relative;
+    line-height: 18px;
+}
+	.text p {
+	font-family: Arial;
+    font-size: 16px;
+    font-weight: auto;
+    padding: 0px 10px;
+    line-height: 18px;
+}
+}
+@media (min-width: 475px) and (max-width: 600px) {
+	.text_container3 {
+	height:300px;
+	position: relative;
+	}
+	.text_container5 {
+    height: 340px;
+    position: relative;
+    line-height: 18px;
+}
+}
+@media (min-width: 351px) and (max-width: 474px) {
+	.text_container3 {
+	height:340px;
+	position: relative;
+	}
+	.text_container5 {
+    height: 380px;
+    position: relative;
+    line-height: 18px;
+}
+	.text .button {
+	right:10%;
+	}
+}
+@media (min-width: 340px) and (max-width: 350px) {
+	.text_container3 {
+	height:350px;
+	position: relative;
+	}
+	.text_container5 {
+    height: 450px;
+    position: relative;
+    line-height: 18px;
+}
+	.text .button {
+	right:5%;
+	}
+}
+@media (min-width: 0px) and (max-width: 340px) {
+	.text_container3 {
+	height:400px;
+	position: relative;
+	}
+	.text_container5 {
+    height: 480px;
+    position: relative;
+    line-height: 18px;
+}
+	.text .button {
+	right:5%;
+	}
+}
