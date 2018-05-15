@@ -217,7 +217,7 @@ nav ul li {
 }
 @media (min-width: 600px) and (max-width: 799px) {
 	.hero {
-	background-image:url(../images/landingpage/Banner-LandingPage-780x280.jpg);
+	background-image:url(../images/LandingPage/Banner-LandingPage-780x280.jpg);
 	}
 	nav {
     width: 80%;
@@ -230,7 +230,7 @@ nav ul li {
 
 @media (min-width: 0px) and (max-width: 599px) {
 	.hero {
-	background-image:url(../images/landingpage/Banner-LandingPage-548x280.jpg);
+	background-image:url(../images/LandingPage/Banner-LandingPage-548x280.jpg);
 	background-position:center;
 	}
 }
